@@ -27,6 +27,7 @@ header > p{
     font-size: 19px;
     width:55%;
     background:linear-gradient(to right,#2193b0 ,#6dd5ed,#bff098);
+    box-shadow: 0px 1px 15px 0px rgba(0, 0, 0, 0.6);
 }
 #enter{
     width: 70%;
