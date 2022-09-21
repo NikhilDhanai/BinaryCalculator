@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <meta name="description" content="A Free Online Calculator, Quick and Easy, and Full Screen!, Binary Calculator , Binary number">
+        <meta name="keywords" content="Calculator, Online Calculator, Free Online Calculator, Binary Calculator, Binary Numbers, Number System , Binary to decimal convertor, binary to hexadecimal convertor">
+        <title>Binary-Calculator-Online Binary Calculations</title>
+        <link href="data:image/x-icon;base64,AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAMTNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv8AAAAAAAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAAAAAAMTNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv8AAAAAAAAAAMTNTv8AAAAAAAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAAAAAAMTNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv8AAAAAAAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAADEzU7/AAAAAAAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAxM1O/wAAAAAAAAAAAAAAAMTNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv8AAAAAAAAAAAAAAADEzU7/SsOLDgAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAErDiw/EzU7/AAAAAAAAAAAAAAAAxM1O/wAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAxM1O/wAAAAAAAAAAAAAAAMTNTv9Kw4sPAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAASsOLD8TNTv8AAAAAAAAAAAAAAADEzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/xM1O/8TNTv/EzU7/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA//8AAIADAAC22wAAttsAAIAbAAC22wAAttsAAIADAAC22wAAttsAAIADAAC/+wAAv/sAAL/7AACAAwAA//8AAA==" rel="icon" type="image/x-icon" />
+        <link rel="stylesheet" href="stylec.css">
+        <script type="text/javascript" src="bicalc.js"></script>
+    </head>
+    <body>
+        <header id="welcome">
+            <h1>Binary Calculator</h1>
+            <p>Quick and easy online Binary Calculator</p>
+        </header>
+        <div class="main_div">
+        <div class="container">
+        
+        <input type="text" id="enter" placeholder="Enter">
+        <div class="buttons binary">
+        <div class="row">
+        <button type="button" class="number bt1 bd"  onclick="btnClick('0')">0</button>
+        <button type="button" class="number bt2 bd"  onclick="btnClick('1')">1</button>
+        <button type="button" class="operator bt3 bd" onclick="btnClick('TD')" title="Convert To Decimal">ToDecimal</button>
+        </div>
+        <div class="row">
+          <button type="button" class="operator bt4 bd" onclick="btnClick('+')">+</button>
+          <button type="button" class="operator bt5 bd" onclick="btnClick('-')">-</button>
+          <button  type="button" class="operator bt6 bd" onclick="btnClick('TH')" title="Convert To Hexadecimal">ToHexa</button>
+    </div>
+    <div class="row">
+        
+        
+        <button type="button" class="operator bt7 bd" onclick="btnClick('*')">X</button>
+        <button type="button" class="operator bt8 bd" onclick="btnClick('/')">/</button>
+        <button type="button" class="operator bt9 bd" onclick="btnClick('TO')" title="Convert To Octal">ToOctal</button>
+    </div>
+    <div class="row">
+        <button type="button" class="operator bt10 bd" onclick="btnClick('<<')" title="Left Shift"><<</button>
+        <button type="button" class="operator bt11 bd" onclick="btnClick('>>')" title="Right Shift">>></button>
+        <button type="button" class="operator bt12 bd" onclick="btnClick('DEL')">DEL</button>
+    </div>
+    <div class="row">
+        <button  type="button" class="operator bt13 bd" onclick="btnClick('C')" title="Clear Screen">C</button>
+        
+        <button type="button" class="operator bt14 bd" onclick="result()">=</button>
+    </div>
+        
+            
+
+
+
+            </div>
+            </div>
+        </div>
+           
+                <div id="ins">
+                    <h3>Instructions</h3>
+                    <p>[0] ,[1] - Number Keys</p>
+                    <p> [ToDecimal] - Convert Binary to Decimal</p>
+                    <p> [ToHexa] - Convert Binary to Hexadecimal</p>
+                    <p> [ToOctal] - Convert Binary to Octal</p>
+                    <p>[+],[-],[X],[/] - Operations
+                    </p>
+                    <p>[<<], [>>] -  Shift operator</p>
+                    <p>[C] - clear screen</p>
+                    <p>[DEL] - Remove Last Character</p>
+                    <p>[=] - Equal to</p>
+                </div>
+        
+    </body>
+</html>
